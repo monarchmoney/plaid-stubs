@@ -33,7 +33,7 @@ def find_stub_files():
 
 setup(
     name=name,
-    version="0.3",
+    version="0.4",
     description=description,
     long_description=long_description,
     long_description_content_type="text/markdown",

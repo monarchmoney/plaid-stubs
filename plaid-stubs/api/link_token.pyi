@@ -5,7 +5,7 @@ from typing_extensions import TypedDict
 from ..client import ResponseJSON
 
 
-class LinkConfig(TypedDict):
+class LinkConfig(TypedDict, total=False):
     user: Dict[str, Any]
     client_name: str
     products: List[str]
