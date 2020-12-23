@@ -8,7 +8,7 @@ from ..client import ResponseJSON
 class LinkConfig(TypedDict, total=False):
     user: Dict[str, Any]
     client_name: str
-    products: List[str]
+    products: Optional[List[str]]
     country_codes: List[str]
     language: str
     redirect_uri: Optional[str]
