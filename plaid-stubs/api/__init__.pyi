@@ -13,3 +13,4 @@ from plaid.api.liabilities import Liabilities as Liabilities
 from plaid.api.processor import Processor as Processor
 from plaid.api.sandbox import Sandbox as Sandbox
 from plaid.api.transactions import Transactions as Transactions
+from plaid.api.link_token import LinkToken as LinkToken

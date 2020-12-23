@@ -1,4 +1,4 @@
-from plaid.api import Accounts as Accounts, AssetReport as AssetReport, Auth as Auth, Categories as Categories, CreditDetails as CreditDetails, Holdings as Holdings, Identity as Identity, Income as Income, Institutions as Institutions, InvestmentTransactions as InvestmentTransactions, Item as Item, Liabilities as Liabilities, Processor as Processor, Sandbox as Sandbox, Transactions as Transactions
+from plaid.api import Accounts as Accounts, AssetReport as AssetReport, Auth as Auth, Categories as Categories, CreditDetails as CreditDetails, Holdings as Holdings, Identity as Identity, Income as Income, Institutions as Institutions, InvestmentTransactions as InvestmentTransactions, Item as Item, Liabilities as Liabilities, Processor as Processor, Sandbox as Sandbox, Transactions as Transactions, LinkToken as LinkToken
 from plaid.requester import DEFAULT_TIMEOUT as DEFAULT_TIMEOUT, post_request as post_request
 from plaid.utils import urljoin as urljoin
 from typing import Optional, Any, Dict, Union
@@ -36,6 +36,7 @@ class Client:
     Processor: Processor = ...
     Sandbox: Sandbox = ...
     Transactions: Transactions = ...
+    LinkToken: LinkToken = ...
     def __init__(
             self,
             client_id: str,
