@@ -33,13 +33,13 @@ def find_stub_files():
 
 setup(
     name=name,
-    version="0.4.1",
+    version="0.5.0",
     description=description,
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT License",
     url="https://github.com/monarchmoney/plaid-stubs",
-    install_requires=["mypy>=0.761", "typing-extensions>=3.7.4.1", "plaid-python>=3.7.0",],
+    install_requires=["mypy>=0.761", "typing-extensions>=3.7.4.1", "plaid-python>=8.0.0",],
     packages=[name],
     package_data={name: find_stub_files()},
     classifiers=[
