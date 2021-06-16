@@ -1,6 +1,0 @@
-from plaid import Client
-
-
-class API:
-    client: Client = ...
-    def __init__(self, client: Client) -> None: ...
